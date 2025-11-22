@@ -35,4 +35,4 @@ jobs:
             echo "🏗️ Building project..."
             npm run build
             echo "🚀 Restarting PM2..."
-            pm2 restart homepage || pm2 start server.js --name homepage
+            pm2 restart erntehelfer || pm2 start server.js --name ertnehelfer
