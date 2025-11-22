@@ -15,7 +15,24 @@ export default function BusinessModel() {
                     <section className="border rounded-xl p-4 h-full">
                         <h2 className="font-semibold text-lg">Value Proposition</h2>
                          <p className="text-gray-600 text-sm mt-2">
-                        
+                            Reliable harvest without seasonal workers 
+                        </p>
+                           <p className="text-gray-600 text-sm mt-2">
+                            Lower production cost vs rising wages 
+                        </p>   <p className="text-gray-600 text-sm mt-2">
+                            Eliminates inhumane labor 
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Secures Existence
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Cost competitiveness
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            AI-guided selective picking
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Yearly constant planning is possible
                         </p>
                     </section>
                     <div className="h-full gap-10">
@@ -58,49 +75,103 @@ export default function BusinessModel() {
                         </p>
                     </section>
                 </div>
-                <div>
-                    <section className="border rounded-xl p-4">
+                <div className="flex justify-between">
+                    <section className="border rounded-xl p-4 w-full">
                         <h2 className="font-semibold text-lg">Revenue Streams</h2>
                         <p className="text-gray-600 text-sm mt-2">
-                            Wie fließt Geld rein? Abo, einmalig, B2B Deals?
+                            Robotics-as-a-Service (monthly fee)
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Data & analytics services
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Maintenance contracts
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                           Hardware sales
                         </p>
                     </section>
 
-                    <section className="border rounded-xl p-4">
+                    <section className="border rounded-xl p-4 w-full ml-6">
                         <h2 className="font-semibold text-lg">Cost Structure</h2>
                         <p className="text-gray-600 text-sm mt-2">
-                            Fixkosten, variable Kosten, alles was dich bluten lässt.
+                          Field operations & testing 
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                          High initial development costs 
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                          Software development & cloud services
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                          Maintenance & support staff
                         </p>
                     </section>
-
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                     <section className="border rounded-xl p-4 md:col-span-2">
                         <h2 className="font-semibold text-lg">Key Activities</h2>
                         <p className="text-gray-600 text-sm mt-2">
-                            Wofür bist du täglich am Arbeiten? Welche Prozesse treiben Wert?
+                            Robot development and manufacturing
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Field testing
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Lobbying for Smart-Farming subsidies
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Software updates
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            Worker reskilling & placement
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                            AI Data monetization
                         </p>
                     </section>
 
                     <section className="border rounded-xl p-4 md:col-span-2">
                         <h2 className="font-semibold text-lg">Key Resources</h2>
                         <p className="text-gray-600 text-sm mt-2">
-                            Menschen, Know-how, Maschinen, Software – was brauchst du wirklich?
+                           Robotics and AI
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                           Field Data set 
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                           <strong>Intellectual Property (IP)</strong> Proprietary AI / Vision system to solve the "Occlusion Gap" 
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                           <strong>Human Capital</strong> Robotics / AI ENgineers (Programming competence) and business experts (Marketing competence)
+                        </p>
+                        <p className="text-gray-600 text-sm mt-2">
+                           <strong>Physics Assets:</strong> A reliable fleet of autonomous harvesting robots, maintenance parts
                         </p>
                     </section>
 
-                    <section className="border rounded-xl p-4 md:col-span-2">
-                        <h2 className="font-semibold text-lg">Channels</h2>
-                        <p className="text-gray-600 text-sm mt-2">
-                            Wie erreichst du Kunden? Wo kaufen sie?
-                        </p>
-                    </section>
-
-                    <section className="border rounded-xl p-4 md:col-span-2">
-                        <h2 className="font-semibold text-lg">Key Partners</h2>
-                        <p className="text-gray-600 text-sm mt-2">
-                            Wen brauchst du außenrum? Lieferanten, Plattformen, Kooperationen?
-                        </p>
-                    </section>
                 </div>
+                <section className="border rounded-xl p-4 md:col-span-2">
+                    <h2 className="font-semibold text-lg">Key Partners</h2>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Roboics and AI Team (External / Consultants)
+                    </p>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Agricultural machinery suppliers
+                    </p>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Hardware machinery partners
+                    </p>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Agri Economics Research Center
+                    </p>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Larbour Unions (IG Bau)
+                    </p>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Food Processors / Buyers
+                    </p>
+                </section>
             </div>
         </div>
     );
