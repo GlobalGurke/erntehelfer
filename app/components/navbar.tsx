@@ -11,13 +11,13 @@ export default function Navbar() {
           {/* Desktop Links */}
           <div className="hidden sm:flex space-x-8 text-sm font-medium">
             <Link to="/" className="hover:text-blue-500 transition-colors">
-              Wer sind wir?
+              Who are we? 
             </Link>
             <Link to="/businessmodel" className="hover:text-blue-500 transition-colors">
-              Unser Business Model
+              Our Business Model
             </Link>
             <Link to="/kontakt" className="hover:text-blue-500 transition-colors">
-              Kontakt
+              Contact
             </Link>
           </div>
           {/* Mobile Menu Button */}
